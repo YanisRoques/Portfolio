@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Portfolio Yanis Roques</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>Acceuil</li>
+                <li>Compétences</li>
+                <li>Projets</li>
+            </ul>
+            <ul>
+                <li><img src="icons8-linkedin-50.png" alt="linkedin"></li>
+                <li><img src="icons8-instagram-50.png" alt=""></li>
+                <li><img src="icons8-github-50.png" alt=""></li>
+                <li><button>Contact</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="Acceuil">
+            <h1>Portfolio</h1>
+            <h2>Yanis Roques</h2>
+            <h2>Développeur Front End</h2>
+            <button>Contact</button>
+        </section>
+
+        <section id="Compétences">
+            <h2>Compétences</h2>
+            <div id="divcard">
+                <article class="card">
+                    <h3>HTML</h3>
+                    <p> Maîtrise de la structuration d'une page.</p>
+                </article>
+
+                <article class="card">
+                    <h3>CSS</h3>
+                    <p> Conception d'interfaces attrayantes et responsives.</p>
+                </article>
+
+                <article class="card">
+                    <h3>Java Script</h3>
+                    <p> Développement de fonctionnalités interactives et dynamiques.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="Formation">
+            <h2>Formation</h2>
+            <p> Certificat Conception et Développement Web </p>
+            <p>EMLyon Business School</p>
+        </section>
+
+        <section>
+            <h2>Présentation</h2>
+            <p>
+                J’ai suivi une formation dev web à l’EMLyon et obtenu mon certificat en juillet.
+                C’était intense, mais j’en suis ressorti avec des bases solides et l’envie d’aller plus loin.
+                Cette expérience m’a permis de vraiment me plonger dans le code et la logique du web.
+            </p>
+            <p>
+                Je travail principalement avec HTML, CSS et JavaScript, surtout sur du front-end.
+                J’aime quand une interface est claire, réactive, et agréable à utiliser.
+                Je fais attention aux détails, parce que pour moi, c’est là que tout se joue.
+            </p>
+            <p>
+                Je suis en veille constante pour rester à jour sur les bonnes pratiques.
+                Je cherche un environnement où je peux progresser et contribuer activement.
+                Mon objectif : allier esthétique, performance et efficacité dans chaque projet.
+            </p>
+        </section>
+
+        <section>
+            <h2>Mes projets</h2>
+            <article>
+                <h3>Rendu HTML</h3>
+                <a href="https://yanisroques.github.io/renduHTML/" target="_blank">Visiter</a>
+                <iframe src="https://yanisroques.github.io/renduHTML/" width="600" height="400"></iframe>
+            </article>
+
+            <article>
+                <h3>Rendu HTML CSS</h3>
+                <a href="https://yanisroques.github.io/renduHTMLCSS/" target="_blank">Visiter</a>
+                <iframe src="https://yanisroques.github.io/renduHTMLCSS/" width="600" height="400"></iframe>
+            </article>
+        </section>
+
+        <section>
+            <h2>Me contacter</h2>
+            <form action="#" method="post">
+                <div>
+                    <label for="nom">Nom :</label><br>
+                    <input type="text" id="nom" name="nom" required><br><br>
+                </div>
+
+                <div>
+                    <label for="prenom">Prénom :</label><br>
+                    <input type="text" id="prenom" name="prenom" required><br><br>
+                </div>
+
+                <div>
+                    <label for="email">Email :</label><br>
+                    <input type="email" id="email" name="email" required><br><br>
+                </div>
+
+                <div>
+                    <label for="telephone">Numéro de téléphone :</label><br>
+                    <input type="tel" id="telephone" name="telephone" required><br><br>
+                </div>
+
+                <div>
+                    <label for="message">Message :</label><br>
+                    <textarea id="message" name="message" rows="5" required></textarea><br><br>
+                </div>
+                <button type="submit">Envoyer</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <ul>
+            <li>Acceuil</li>
+            <li>Compétences</li>
+            <li>Projets</li>
+        </ul>
+        <ul>
+            <li><img src="icons8-linkedin-50.png" alt="linkedin"></li>
+            <li><img src="icons8-instagram-50.png" alt=""></li>
+            <li><img src="icons8-github-50.png" alt=""></li>
+            <li><button>Contact</button></li>
+        </ul>
+    </footer>
+
+</body>
+
+</html>

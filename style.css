@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-family: "Montserrat", sans-serif;
+}
+h1{
+    font-size: 100px;
+    font-weight: 450;
+}
+h2{
+    font-size: 50px;
+    font-weight: 300;
+}
+h3{
+    font-size: 40px;
+    font-weight: 300;
+} 
+p{
+    font-size: 20px;
+    font-weight: 200;
+}  
+button{
+    background-color: black;
+    color: white;
+    border: 1.5px white solid;
+    border-radius: 5px;
+    width: 100px;
+    height: 40px;
+    font-size: 15px;
+    font-family: "Montserrat", sans-serif;
+}
+ul{
+    list-style-type: none;
+    padding-left: 5;
+    width: 25%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+nav{
+    width: 98%;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-shadow: 0px 0px 5px rgb(103, 8, 124);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    background-color: radial-gradient(#99575700, #0101035c), url(background3.jpg);
+    backdrop-filter: blur(10px);
+}
+#Acceuil{
+    padding-bottom: 50px;
+    background-image: radial-gradient(#e6646500, #0101039c), url(background3.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    box-shadow: 5px 10px 35px rgb(46, 2, 46);
+}
+#Compétences{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+#divcard{
+    width: 30%;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.card{
+    border: 2px solid rgb(46, 2, 46);
+    box-shadow:5px 0px 15px rgb(46, 2, 46);
+}
+#Formation{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    p{
+        text-shadow: 1px 1px 5px 30px rgb(46, 2, 46);
+    }
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}

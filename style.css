@@ -9,11 +9,12 @@ input{
     font-family: "Montserrat", sans-serif;
     text-align: center;
     width: 300px;
+    height: 18px;
     border: solid 2px rgb(0, 0, 0);
     border-radius: 7px;
 }
 textarea{
-    width: 305px;
+    width: 300px;
     font-family: "Montserrat", sans-serif;
     border-radius: 7px;
 }
@@ -43,6 +44,7 @@ h3 {
 p {
     font-size: 20px;
     font-weight: 200;
+    font-family: "Quicksand", sans-serif;
 }
 
 button {
@@ -80,16 +82,22 @@ nav {
     position: fixed;
     background-color: radial-gradient(#99575700, #0101035c), url(background3.jpg);
     backdrop-filter: blur(10px);
+    img{
+        width: 70%;
+    }
 }
 
 #Acceuil {
+    height: 50%;
+    text-align: left;
     padding-bottom: 50px;
-    background-image: radial-gradient(#e6646500, #010103), url(background1.jpg);
+    background-image: radial-gradient(#e6646500, #010103), url(background8.png);
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    justify-content: baseline;
     align-items: center;
     button{
         width: 150px;
@@ -112,11 +120,17 @@ nav {
     gap: 20px;
     display: flex;
     flex-direction: column;
+    align-items: stretch;
 }
 
 .card {
-    border: 2px solid rgb(46, 2, 46);
-    box-shadow: 5px 0px 15px rgb(16, 2, 46);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    flex: 1;
+    border: 2px solid rgb(255, 255, 255);
+    box-shadow: 5px 5px 5px rgb(16, 2, 46);
     border-radius: 10px;
 }
 
@@ -130,13 +144,15 @@ nav {
         font-size: 30px;
     }
 }
+#certif{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 66%;
+}
 #Présentation{
     text-align: center;
     padding-bottom: 50px;
-    background-image: radial-gradient(#e6646500, #010103), url(background3.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -168,11 +184,12 @@ nav {
     align-items: center;
     justify-content: center;
 }
-#form-container{
+#Formulairedecontact{
     padding-bottom: 50px;
-    background-image: radial-gradient(#e6646500, #010103), url(background2.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-image: radial-gradient(#e6646500, #010103), url(background9.png);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -190,7 +207,6 @@ nav {
     }
 }
 footer {
-    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -198,7 +214,9 @@ footer {
     box-shadow: 0px 0px 5px white;
 }
 #ulfooter{
+    width: 100%;
     display: flex;
     justify-content: center;
-    gap: 300px;
+    align-items: center;
+    gap: 200px;
 }

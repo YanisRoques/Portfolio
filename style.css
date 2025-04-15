@@ -110,7 +110,7 @@ button:hover{
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: baseline;
+    justify-content: center;
     align-items: center;
     button{
         width: 150px;
@@ -130,7 +130,7 @@ button:hover{
     padding-top: 50px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: end;
     align-items: center;
     text-align: center;
 }

@@ -34,12 +34,12 @@ h1 {
 h2 {
     font-size: 50px;
     font-weight: 300;
+    color: #F2C4CD;
 }
 
 h3 {
     font-size: 35px;
     font-weight: 300;
-    color: #F2C4CD;
 }
 
 p {
@@ -60,7 +60,6 @@ button {
     font-size: 15px;
     font-family: "Montserrat", sans-serif;
 }
-
 ul {
     list-style-type: none;
     padding-left: 5;
@@ -87,7 +86,20 @@ nav {
         width: 70%;
     }
 }
-
+.hover:hover{
+    color: #F2C4CD;
+}
+.hoverimg{
+    box-sizing: border-box;
+}
+.hoverimg:hover{
+    border: solid 1px white;
+    border-radius: 10px;
+}
+button:hover{
+    color: #F2C4CD;
+    border-color: #F2C4CD;
+}
 #Acceuil {
     height: 50%;
     text-align: left;
@@ -201,6 +213,9 @@ nav {
     align-items: center;
     text-align: center;
     box-shadow: rgb(16, 2, 46);
+    h2{
+        color: white;
+    }
 }
 #lignedouble{
     display: flex;

@@ -10,21 +10,27 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <header>
         <nav>
             <ul>
-                <li>Acceuil</li>
-                <li>Compétences</li>
-                <li>Projets</li>
+                <li><a href="#Acceuil">Acceuil</a></li>
+                <li><a href="#Compétences">Compétences</a></li>
+                <li><a href="#Projets">Projets</a></li>
             </ul>
             <ul>
-                <li><img src="icons8-linkedin-50.png" alt="linkedin"></li>
-                <li><img src="icons8-instagram-50.png" alt=""></li>
-                <li><img src="icons8-github-50.png" alt=""></li>
-                <li><button>Contact</button></li>
+                <li> <a href="https://www.linkedin.com/" target="_blank"><img src="icons8-linkedin-50.png"
+                            alt="linkedin"></a></li>
+                <li> <a href="https://www.instagram.com/" target="_blank"><img src="icons8-instagram-50.png"
+                            alt="Instagram"></a></li>
+                <li> <a href="https://github.com/YanisRoques" target="_blank"><img src="icons8-github-50.png"
+                            alt="Github"></a></li>
+                <li><button><a href="#form-container">Contact</a></button></li>
             </ul>
         </nav>
     </header>
@@ -35,7 +41,7 @@
             <h1>Portfolio</h1>
             <h2>Yanis Roques</h2>
             <h2>Développeur Front End</h2>
-            <button>Contact</button>
+            <button><a href="#form-container">Contact</a></button>
         </section>
 
         <section id="Compétences">
@@ -52,7 +58,7 @@
                 </article>
 
                 <article class="card">
-                    <h3>Java Script</h3>
+                    <h3>JS</h3>
                     <p> Développement de fonctionnalités interactives et dynamiques.</p>
                 </article>
             </div>
@@ -60,57 +66,56 @@
 
         <section id="Formation">
             <h2>Formation</h2>
-            <h3> Certificat Conception et Développement Web </h3>
-            <p>EMLyon Business School</p>
+            <div class="card">
+                <h3> Certificat Conception et Développement Web </h3>
+                <p>EMLyon Business School</p>
+            </div>
         </section>
 
-        <section>
+        <section id="Présentation">
             <h2>Présentation</h2>
-            <p>
-                J’ai suivi une formation dev web à l’EMLyon et obtenu mon certificat en juillet.
-                C’était intense, mais j’en suis ressorti avec des bases solides et l’envie d’aller plus loin.
-                Cette expérience m’a permis de vraiment me plonger dans le code et la logique du web.
-            </p>
-            <p>
-                Je travail principalement avec HTML, CSS et JavaScript, surtout sur du front-end.
-                J’aime quand une interface est claire, réactive, et agréable à utiliser.
-                Je fais attention aux détails, parce que pour moi, c’est là que tout se joue.
-            </p>
-            <p>
-                Je suis en veille constante pour rester à jour sur les bonnes pratiques.
-                Je cherche un environnement où je peux progresser et contribuer activement.
-                Mon objectif : allier esthétique, performance et efficacité dans chaque projet.
-            </p>
+            <div id="txtprs">
+                <p>
+                    J’ai suivi une formation dev web à l’EMLyon et obtenu mon certificat en juillet.
+                    J’en suis ressorti avec des bases solides et l’envie d’aller plus loin.
+                    Cette expérience m’a permis de vraiment me plonger dans le code et la logique du web.
+                </p>
+                <p>
+                    Je travail principalement avec HTML, CSS et JavaScript, surtout sur du front-end.
+                    J’aime quand une interface est claire, réactive, et agréable à utiliser.
+                    Je fais attention aux détails, parce que pour moi, c’est là que tout se joue.
+                </p>
+                <p>
+                    Je suis en veille constante pour rester à jour sur les bonnes pratiques.
+                    Je cherche un environnement où je peux progresser et contribuer activement.
+                    Mon objectif : allier esthétique, performance et efficacité dans chaque projet.
+                </p>
+            </div>
         </section>
-
-        <section>
+        <section id="Projets">
             <h2>Mes projets</h2>
-            <article>
+            <div id="rendus" class="card">
                 <h3>Rendu HTML</h3>
-                <a href="https://yanisroques.github.io/renduHTML/" target="_blank">Visiter</a>
-                <iframe src="https://yanisroques.github.io/renduHTML/" width="600" height="400"></iframe>
-            </article>
-
-            <article>
+                <button><a href="https://yanisroques.github.io/renduHTML/" target="_blank">Voir</a></button>
                 <h3>Rendu HTML CSS</h3>
-                <a href="https://yanisroques.github.io/renduHTMLCSS/" target="_blank">Visiter</a>
-                <iframe src="https://yanisroques.github.io/renduHTMLCSS/" width="600" height="400"></iframe>
-            </article>
+                <button><a href="https://yanisroques.github.io/renduHTMLCSS/" target="_blank">Voir</a></button>
+            </div>
         </section>
 
-        <section>
+        <section id="form-container">
             <h2>Me contacter</h2>
-            <form action="#" method="post">
-                <div>
-                    <label for="nom">Nom :</label><br>
-                    <input type="text" id="nom" name="nom" required><br><br>
-                </div>
+            <form action="" method="post">
+                <div id="lignedouble">
+                    <div>
+                        <label for="prenom">Prénom :</label><br>
+                        <input type="text" id="prenom" name="prenom" required><br><br>
+                    </div>
 
-                <div>
-                    <label for="prenom">Prénom :</label><br>
-                    <input type="text" id="prenom" name="prenom" required><br><br>
+                    <div>
+                        <label for="nom">Nom :</label><br>
+                        <input type="text" id="nom" name="nom" required><br><br>
+                    </div>
                 </div>
-
                 <div>
                     <label for="email">Email :</label><br>
                     <input type="email" id="email" name="email" required><br><br>
@@ -130,16 +135,13 @@
         </section>
     </main>
     <footer>
-        <ul>
-            <li>Acceuil</li>
-            <li>Compétences</li>
-            <li>Projets</li>
-        </ul>
-        <ul>
-            <li><img src="icons8-linkedin-50.png" alt="linkedin"></li>
-            <li><img src="icons8-instagram-50.png" alt=""></li>
-            <li><img src="icons8-github-50.png" alt=""></li>
-            <li><button>Contact</button></li>
+        <ul id="ulfooter">
+            <li><a href="https://www.linkedin.com/" target="_blank"><img src="icons8-linkedin-50.png"
+                        alt="linkedin"></a></li>
+            <li><a href="https://www.instagram.com/" target="_blank"><img src="icons8-instagram-50.png"
+                        alt="Instagram"></a></li>
+            <li><a href="https://github.com/YanisRoques" target="_blank"><img src="icons8-github-50.png"
+                        alt="Github"></a></li>
         </ul>
     </footer>
 

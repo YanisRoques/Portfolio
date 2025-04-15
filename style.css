@@ -123,6 +123,10 @@ button:hover{
 }
 
 #Compétences {
+    background-image: radial-gradient(#e6646500, #010103), url(skills.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
     padding-top: 50px;
     display: flex;
     flex-direction: column;

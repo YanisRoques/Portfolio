@@ -39,6 +39,7 @@ h2 {
 h3 {
     font-size: 35px;
     font-weight: 300;
+    color: #F2C4CD;
 }
 
 p {
@@ -104,6 +105,9 @@ nav {
         height: 50px;
         font-size: 100%;
     }
+    h2{
+        color: white;
+    }
 }
 
 #Compétences {
@@ -129,8 +133,8 @@ nav {
     justify-content: center;
     align-items: stretch;
     flex: 1;
-    border: 2px solid rgb(255, 255, 255);
-    box-shadow: 5px 5px 5px rgb(16, 2, 46);
+    border: 2px solid #4C2673;
+    box-shadow: 1px 1px 5px #F2C4CD;
     border-radius: 10px;
 }
 

@@ -29,6 +29,7 @@ a:active {
 h1 {
     font-size: 100px;
     font-weight: 450;
+    font-family: "Quicksand", sans-serif;
 }
 
 h2 {
@@ -56,7 +57,6 @@ button {
     display: inline-block;
     width: 100px;
     height: 40px;
-    cursor: pointer;
     font-size: 15px;
     font-family: "Montserrat", sans-serif;
 }
@@ -71,7 +71,7 @@ ul {
 }
 
 nav {
-    width: 98%;
+    width: 100%;
     padding-left: 15px;
     padding-right: 15px;
     box-shadow: 0px 0px 5px rgb(255, 255, 255);
@@ -85,6 +85,9 @@ nav {
     img{
         width: 70%;
     }
+}
+#ulnav{
+    padding-right: 70px;
 }
 .hover:hover{
     color: #F2C4CD;
@@ -103,7 +106,6 @@ button:hover{
 #Acceuil {
     height: 50%;
     text-align: left;
-    padding-bottom: 50px;
     background-image: radial-gradient(#e6646500, #010103), url(background8.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -127,28 +129,31 @@ button:hover{
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 100vh;
-    padding-top: 50px;
     display: flex;
     flex-direction: column;
-    justify-content: end;
+    justify-content: center;
     align-items: center;
     text-align: center;
+    padding-bottom: 200px;
 }
 
 #divcard {
-    width: 30%;
+    width: 80%;
     gap: 20px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: stretch;
+    justify-content: space-between;
+    padding-top: 100px;
 }
 
 .card {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: stretch;
+    align-items: center;
     flex: 1;
+    background-color: #4c267321;
     border: 2px solid #4C2673;
     box-shadow: 1px 1px 5px #F2C4CD;
     border-radius: 10px;
@@ -160,6 +165,7 @@ button:hover{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-bottom: 200px;
     p{
         font-size: 30px;
     }
@@ -172,7 +178,8 @@ button:hover{
 }
 #Présentation{
     text-align: center;
-    padding-bottom: 50px;
+    padding-top: 250px;
+    padding-bottom: 200px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -189,27 +196,44 @@ button:hover{
 }
 #Projets{
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 400px;
+    background-image: radial-gradient(#e6646500, #010103), url(background10.png);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 #rendus{
-    width: 45%;
-    padding-bottom: 25px;
+    width: 40%;
+    height: 400px;
     display: flex;
     flex-direction: column;
     text-align: center;
     align-items: center;
     justify-content: center;
+    padding-bottom: 20px;
+    border: 2px solid #4C2673;
+    background-color: #4c267321;
+    box-shadow: 1px 1px 5px #F2C4CD;
+    border-radius: 10px;
+    h3{
+        font-size: 50px;
+    }
+    button{
+        width: 15%;
+        height: 50px;
+        font-size: 20px;
+    }
 }
 #Formulairedecontact{
     padding-bottom: 50px;
-    background-image: radial-gradient(#e6646500, #010103), url(background9.png);
+    background-image: radial-gradient(#e6646500, #01010300), url(background14.png);
     background-size:cover;
     background-repeat:no-repeat;
-    background-position:center;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -230,6 +254,7 @@ button:hover{
     }
 }
 footer {
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -241,5 +266,6 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 200px;
+    gap: 400px;
+    padding-right: 45px;
 }

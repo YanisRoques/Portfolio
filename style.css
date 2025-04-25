@@ -59,15 +59,19 @@ button {
     height: 40px;
     font-size: 15px;
     font-family: "Montserrat", sans-serif;
+    transition: border 0.5s ease;
+    transition: color 0.5s ease;
 }
 ul {
     list-style-type: none;
     padding-left: 5;
     width: 25%;
+    gap: 10%;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    max-width: 25%;
 }
 
 nav {
@@ -89,11 +93,17 @@ nav {
 #ulnav{
     padding-right: 70px;
 }
+.hover{
+    transition: color 0.5s ease;
+}
 .hover:hover{
     color: #F2C4CD;
 }
 .hoverimg{
     box-sizing: border-box;
+    border: solid 1px transparent; /* <-- pour éviter que l'image saute */
+    transition: border-color 0.3s ease; /* <-- transition fluide sur la couleur de bordure */
+    border-radius: 10px;
 }
 .hoverimg:hover{
     border: solid 1px white;
